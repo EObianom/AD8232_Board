@@ -31,7 +31,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias"
+			(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -13299,6 +13299,50 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "by Ekenedirichukwu Obianom\n"
+		(exclude_from_sim no)
+		(at 270.764 180.086 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "1a128217-05db-4d82-8e4a-4bcc9fda6aa9")
+	)
+	(text "3rd April 2026\n"
+		(exclude_from_sim no)
+		(at 216.154 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a8e4831-1e08-4051-83df-0daad560b7d4")
+	)
+	(text "v0.01\n"
+		(exclude_from_sim no)
+		(at 272.288 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b8a9a4a0-3380-490d-9a48-df8c36c49e02")
+	)
+	(text "AD8232 ECG MONITOR"
+		(exclude_from_sim no)
+		(at 205.74 189.992 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "d266a1df-5487-4fdc-b01b-15da7606ac66")
+	)
 	(junction
 		(at 102.87 97.79)
 		(diameter 0)
@@ -14247,7 +14291,7 @@
 	)
 	(global_label "SDN"
 		(shape input)
-		(at 149.86 147.32 180)
+		(at 149.86 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14257,7 +14301,7 @@
 		)
 		(uuid "17b1d302-90f1-4426-8c62-bf03d598011d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.0648 147.32 0)
+			(at 143.0648 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14487,7 +14531,7 @@
 	)
 	(global_label "LO+"
 		(shape input)
-		(at 149.86 142.24 180)
+		(at 149.86 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14497,7 +14541,7 @@
 		)
 		(uuid "6a3a92da-659f-4095-b3ef-eb15cc664c64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.9438 142.24 0)
+			(at 142.9438 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14583,7 +14627,7 @@
 	)
 	(global_label "LO-"
 		(shape input)
-		(at 149.86 144.78 180)
+		(at 149.86 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14593,7 +14637,7 @@
 		)
 		(uuid "b62dbb8f-2afd-49ac-bb97-c885852ab1e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.9438 144.78 0)
+			(at 142.9438 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15158,7 +15202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0815_2038Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 118.11 89.408 90)
 			(hide yes)
 			(show_name no)
