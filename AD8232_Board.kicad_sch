@@ -17308,19 +17308,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "520b3afd-5a99-4183-bdce-c3035e17c17a")
+			(uuid "520b3afd-5a99-4183-bdce-c3035e17c17b")
 		)
 		(pin "5"
-			(uuid "461fcae1-2bbb-4d9f-b5ac-be40eab0a323")
+			(uuid "461fcae1-2bbb-4d9f-b5ac-be40eab0a324")
 		)
 		(pin "1"
-			(uuid "91d446d8-ab15-422b-a8bd-9bc211b63273")
+			(uuid "91d446d8-ab15-422b-a8bd-9bc211b63274")
 		)
 		(pin "3"
-			(uuid "c6905f28-8157-49e0-a1e0-872e6a4e67ff")
+			(uuid "c6905f28-8157-49e0-a1e0-872e6a4e6800")
 		)
 		(pin "4"
-			(uuid "46c1dc3e-f7c5-4f75-8a08-9d01dd0cffdb")
+			(uuid "46c1dc3e-f7c5-4f75-8a08-9d01dd0cffdc")
 		)
 		(instances
 			(project "AD8232_Board"
