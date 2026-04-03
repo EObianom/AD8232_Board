@@ -1,72 +1,114 @@
 # AD8232_Board
 AD8232 Mini ECG Breakout Board
 
-A compact, production-ready breakout board for the AD8232 ECG front-end, designed for wearable and embedded biosignal applications. This repository contains everything needed to understand, modify, and manufacture the board.
+A compact, production-ready ECG front-end built around the AD8232, designed for seamless integration into wearable and embedded systems.
 
-Overview
+Small in size, deliberate in design, and ready to manufacture.
 
-This project implements a highly miniaturized AD8232-based ECG acquisition circuit with a footprint of just 25 × 17.7 mm, optimized for space-constrained designs. The board excludes the traditional 3.5 mm audio jack in favor of direct connections, making it ideal for integration into custom hardware systems.
+---
 
-Features
+🧠 Overview
 
-- Ultra-compact PCB design (25 × 17.7 mm)
+This project implements a highly miniaturised ECG acquisition circuit with a footprint of just 25 × 17.7 mm. It is engineered for space-constrained applications where traditional breakout boards fall short.
+
+Unlike conventional AD8232 modules, this design eliminates the bulky 3.5 mm audio jack, enabling direct electrode interfacing and tighter system integration.
+
+The result is a clean, flexible, and deployment-ready biosignal front-end.
+
+---
+
+⚡ Features
+
+- Ultra-compact PCB (25 × 17.7 mm)
 - Based on the AD8232 analog front-end for ECG signal conditioning
-- Designed for direct electrode interfacing (no bulky audio jack)
-- Clean and efficient layout for low-noise biosignal acquisition
-- Ready for manufacturing and assembly
+- Direct electrode interface (no audio jack) for reduced size and flexibility
+- Carefully designed layout for low-noise signal acquisition
+- Manufacturing-ready with full fabrication and assembly files
 
-Repository Contents
+---
 
-- Schematic
-  Complete circuit design showing component connections and signal flow
+📦 Repository Contents
 
-- PCB Layout
-  Optimized board layout designed for minimal size and signal integrity
+This repository provides a complete, production-ready hardware package:
 
-- Footprints
-  All components are assigned with appropriate, manufacturable footprints
+🧾 Schematic
 
-- Gerber Files
-  Fabrication-ready files for PCB manufacturing
+Full circuit design showing signal flow, filtering stages, and component connections.
 
-- BOM (JCL Format)
-  Bill of Materials formatted for JLCPCB assembly services
+🧩 PCB Layout
 
-- CPL (Component Placement List)
-  Pick-and-place file for automated assembly
+Optimised layout focused on compactness, signal integrity, and analog performance.
 
-Design Notes
+📐 Footprints
 
-- The removal of the audio jack significantly reduces board size and allows flexible integration into custom systems.
-- Care has been taken in routing sensitive analog traces to minimize noise and interference.
-- Suitable for wearable ECG applications, research prototypes, and embedded health monitoring systems.
+All components mapped to manufacturable, assembly-ready footprints.
 
-Getting Started
+🏭 Gerber Files
 
-1. Review the schematic to understand the circuit design.
-2. Open the PCB layout in KiCad to inspect routing and component placement.
-3. Use the provided Gerber files to order the PCB from your preferred manufacturer.
-4. Upload the BOM and CPL files to JLCPCB (or similar) for assembly.
+Fabrication files ready for immediate PCB manufacturing.
 
-Applications
+📋 BOM (JLC Format)
+
+Bill of Materials formatted for streamlined JLCPCB assembly.
+
+🤖 CPL File
+
+Pick-and-place file for automated component assembly.
+
+---
+
+🧪 Design Notes
+
+- Removing the audio jack significantly reduces board size and improves integration flexibility.
+- Sensitive analog routing has been carefully handled to minimise noise and interference.
+- The design prioritises signal quality, compactness, and manufacturability.
+
+---
+
+🚀 Getting Started
+
+1. Review the schematic to understand the circuit design
+2. Open the PCB layout in KiCad to inspect routing and placement
+3. Use the Gerber files to order your PCB
+4. Upload the BOM and CPL files to JLCPCB (or similar) for assembly
+
+Once assembled, the board can be interfaced with a microcontroller ADC for signal capture and processing.
+
+---
+
+🎯 Applications
 
 - Wearable health monitoring devices
 - Embedded ECG systems
 - Biomedical research prototypes
-- Low-power biosignal acquisition systems
+- Low-power biosignal acquisition platforms
 
-License
+---
 
-This project is open-source. Please refer to the license file for usage and distribution terms.
+🧭 Design Philosophy
 
-Author
+This board is built around a simple idea:
+
+«Make ECG acquisition smaller, cleaner, and easier to integrate.»
+
+By stripping away unnecessary bulk and focusing on core functionality, it becomes a flexible building block for next-generation embedded and wearable systems.
+
+---
+
+🤝 Contributions
+
+Contributions and improvements are welcome.
+Feel free to open an issue or submit a pull request.
+
+---
+
+⚠️ Disclaimer
+
+This design is intended for research and development purposes only.
+It is not certified for medical or clinical use.
+
+---
+
+👤 Author
 
 Designed and developed by Apogee.
-
-Contributions
-
-Contributions, improvements, and suggestions are welcome. Feel free to open an issue or submit a pull request.
-
-Disclaimer
-
-This design is intended for research and development purposes only. It is not certified for medical or clinical use.
