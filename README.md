@@ -4,6 +4,7 @@ AD8232 Mini ECG Breakout Board
 A compact, production-ready ECG front-end built around the AD8232, designed for seamless integration into wearable and embedded systems.
 
 Small in size, deliberate in design, and ready to manufacture.
+<img width="486" height="284" alt="image" src="https://github.com/user-attachments/assets/ae9644fa-3802-4e0d-b7e4-7007df15b5ad" />
 
 ---
 
