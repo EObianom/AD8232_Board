@@ -54,7 +54,7 @@ Once assembled, the board can be interfaced with a microcontroller ADC for signa
 ---
 
 Disclaimer
-This design is intended for research and development purposes only. It is not certified for medical or clinical use. 
+This design is intended for research and development purposes only. It is not certified for medical or clinical use. This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
 
 Contributions and improvements are welcome.
 Feel free to open an issue or submit a pull request.
