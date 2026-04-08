@@ -87,7 +87,6 @@
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)
-		(solder_mask_min_width 0.12)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
 			(front yes)
@@ -4726,6 +4725,136 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "aeca62f7-e5af-48cc-a10d-772acc06d91d")
+	)
+	(gr_text "RL"
+		(at 159.3 107.1 0)
+		(layer "B.SilkS")
+		(uuid "5a4c1604-a41a-48f7-a934-f98b892fde3d")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "AN"
+		(at 159.3 109.6 0)
+		(layer "B.SilkS")
+		(uuid "fde36a28-dda8-48ed-83a7-b72cc75355e7")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "NC"
+		(at 159.3 111.6 0)
+		(layer "B.SilkS")
+		(uuid "8f47dbf4-eb70-4ce6-8081-df67af8bf855")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "LA"
+		(at 159.4 102 0)
+		(layer "B.SilkS")
+		(uuid "95257be1-4b22-49e7-ae78-582a257cff4e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "RA"
+		(at 159.5 104.5 0)
+		(layer "B.SilkS")
+		(uuid "7549357d-1f4a-422e-8ec7-041c47d7762f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "3.3"
+		(at 177.7 102.6 0)
+		(layer "B.SilkS")
+		(uuid "f5cd9e4d-cfe4-4f74-83e7-596c09a0f067")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 177.7 105 0)
+		(layer "B.SilkS")
+		(uuid "c16b7887-e52b-4684-9176-ea8d36ab5382")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "SDN"
+		(at 177.8 107.6 0)
+		(layer "B.SilkS")
+		(uuid "460343b9-b0bf-4aed-b0c8-e84a238d2ade")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "LO+"
+		(at 177.8 110.1 0)
+		(layer "B.SilkS")
+		(uuid "cbe0d195-ed94-424f-aa0e-e47cbfe6ddec")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "LO-\n"
+		(at 177.8 111.3 0)
+		(layer "B.SilkS")
+		(uuid "b4b6bb29-2655-41cc-89bb-c2bf7be1273f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(gr_text "AD8232\nECG MONITOR\nby\nEkenedirichukwu"
 		(at 167.9 113.4 0)
